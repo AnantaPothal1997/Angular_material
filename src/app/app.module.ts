@@ -11,6 +11,7 @@ import { MatSliderModule } from '@angular/material/slider';
 import { TableComponent } from './table/table.component';
 
 import {MatTableModule} from '@angular/material/table';
+import { ChildComponent } from './child/child.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import {MatTableModule} from '@angular/material/table';
     AppComponent,
     HeaderComponent,
     TableComponent,
+    ChildComponent,
   ],
   imports: [
     BrowserModule,
