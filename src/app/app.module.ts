@@ -12,6 +12,7 @@ import { TableComponent } from './table/table.component';
 
 import {MatTableModule} from '@angular/material/table';
 import { ChildComponent } from './child/child.component';
+import { FullNamePipe } from './pipes/full-name.pipe';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { ChildComponent } from './child/child.component';
     HeaderComponent,
     TableComponent,
     ChildComponent,
+    FullNamePipe,
   ],
   imports: [
     BrowserModule,
