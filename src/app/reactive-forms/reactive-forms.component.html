@@ -1,0 +1,12 @@
+<p>reactive-forms works!</p>
+
+<p>
+    Testing reactive forms   
+</p>
+
+<form [formGroup]="loginForm">
+    <input type = 'text' formControlName = "user"><br><br>
+    <input type = 'text' formControlName = "password">
+</form>
+
+<button (click)="getFormValues()">Submit Form</button>
