@@ -11,15 +11,13 @@ const routes: Routes = [
   {
     path: 'reactive-forms',
     component: ReactiveFormsComponent
-  },
-  {
-    path: '**',
-    component: ReactiveFormsComponent
   }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [
+    RouterModule.forRoot(routes)
+  ],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

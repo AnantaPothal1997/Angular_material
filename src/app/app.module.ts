@@ -20,6 +20,7 @@ import {ReactiveFormsModule} from '@angular/forms';
 import { FirstComponent } from './first/first.component';
 import { SecondComponent } from './second/second.component';
 import { AdminModule } from './modules/admin/admin.module';
+import { ProductModule } from './modules/product/product.module';
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { AdminModule } from './modules/admin/admin.module';
     MatSliderModule,
     MatTableModule,
     ReactiveFormsModule,
-    AdminModule
+    AdminModule,
+    ProductModule
   ],
   providers: [],
   bootstrap: [AppComponent]
