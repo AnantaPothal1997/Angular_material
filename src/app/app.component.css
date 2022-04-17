@@ -1,0 +1,14 @@
+.main-component{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 100px;
+}
+
+.child-component{
+    flex: auto;
+    text-align: center;
+    background: pink;
+    border: 1px solid green;
+    padding: 100px;
+    margin: 5px;
+}

@@ -17,6 +17,8 @@ import { FullNamePipe } from './pipes/full-name.pipe';
 import { ReactiveFormsComponent } from './reactive-forms/reactive-forms.component';
 
 import {ReactiveFormsModule} from '@angular/forms';
+import { FirstComponent } from './first/first.component';
+import { SecondComponent } from './second/second.component';
 
 
 @NgModule({
@@ -27,6 +29,8 @@ import {ReactiveFormsModule} from '@angular/forms';
     ChildComponent,
     FullNamePipe,
     ReactiveFormsComponent,
+    FirstComponent,
+    SecondComponent,
   ],
   imports: [
     BrowserModule,
