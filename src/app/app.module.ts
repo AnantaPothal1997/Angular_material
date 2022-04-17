@@ -19,6 +19,7 @@ import { ReactiveFormsComponent } from './reactive-forms/reactive-forms.componen
 import {ReactiveFormsModule} from '@angular/forms';
 import { FirstComponent } from './first/first.component';
 import { SecondComponent } from './second/second.component';
+import { AdminModule } from './modules/admin/admin.module';
 
 
 @NgModule({
@@ -30,7 +31,7 @@ import { SecondComponent } from './second/second.component';
     FullNamePipe,
     ReactiveFormsComponent,
     FirstComponent,
-    SecondComponent,
+    SecondComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +39,8 @@ import { SecondComponent } from './second/second.component';
     BrowserAnimationsModule,
     MatSliderModule,
     MatTableModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    AdminModule
   ],
   providers: [],
   bootstrap: [AppComponent]
