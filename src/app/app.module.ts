@@ -19,8 +19,9 @@ import { ReactiveFormsComponent } from './reactive-forms/reactive-forms.componen
 import {ReactiveFormsModule} from '@angular/forms';
 import { FirstComponent } from './first/first.component';
 import { SecondComponent } from './second/second.component';
-import { AdminModule } from './modules/admin/admin.module';
+// import { AdminModule } from './modules/admin/admin.module';       //eager loading  while importing a module direct in app.module.ts
 import { ProductModule } from './modules/product/product.module';
+// import { UserModule } from './modules/user/user.module';
 
 
 @NgModule({
@@ -41,8 +42,7 @@ import { ProductModule } from './modules/product/product.module';
     MatSliderModule,
     MatTableModule,
     ReactiveFormsModule,
-    AdminModule,
-    ProductModule
+    ProductModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

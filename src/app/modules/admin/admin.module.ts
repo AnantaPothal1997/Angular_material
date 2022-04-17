@@ -1,9 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { LoginComponent } from './login/login.component';
-import { UserModule } from '../user/user.module';
+import { AdminRoutingModule } from './admin-routing.module';
 
 
+
+console.log('admin module loaded');
 
 @NgModule({
   declarations: [
@@ -11,7 +13,7 @@ import { UserModule } from '../user/user.module';
   ],
   imports: [
     CommonModule,
-    UserModule
+    AdminRoutingModule
   ],
   exports: [
     LoginComponent

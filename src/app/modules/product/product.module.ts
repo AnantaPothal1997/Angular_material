@@ -5,6 +5,10 @@ import { ProductRoutingModule } from './product-routing.module';
 import { AddComponent } from './add/add.component';
 
 
+
+console.log('product module loaded');
+
+
 @NgModule({
   declarations: [
     AddComponent
